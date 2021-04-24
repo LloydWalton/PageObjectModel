@@ -2,7 +2,6 @@ com\qa\crm\pages\ContactsPage.class
 com\qa\crm\pages\DealsPage.class
 com\qa\crm\pages\SignUpPage.class
 com\qa\crm\util\Util.class
-com\qa\crmtest\base\TestBase.class
 com\qa\crm\extentreport\ExtentReportListener.class
 com\qa\crm\pages\HomePage.class
 com\qa\crm\pages\TasksPage.class

@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import com.qa.crm.pages.HomePage;
 import com.qa.crm.pages.LoginPage;
-import com.qa.crmtest.base.TestBase;
+import com.qa.crm.testbase.TestBase;
 
 public class LoginPageTest extends TestBase {
 	LoginPage loginpage;

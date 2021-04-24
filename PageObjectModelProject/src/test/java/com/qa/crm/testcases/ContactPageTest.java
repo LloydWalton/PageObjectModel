@@ -10,9 +10,8 @@ import org.testng.annotations.Test;
 import com.qa.crm.pages.ContactsPage;
 import com.qa.crm.pages.HomePage;
 import com.qa.crm.pages.LoginPage;
+import com.qa.crm.testbase.TestBase;
 import com.qa.crm.util.Util;
-
-import com.qa.crmtest.base.TestBase;
 
 public class ContactPageTest extends TestBase {
 	LoginPage loginPage;

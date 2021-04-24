@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import com.qa.crmtest.base.TestBase;
+import com.qa.crm.testbase.TestBase;
 
 public class ContactsPage extends TestBase {
 

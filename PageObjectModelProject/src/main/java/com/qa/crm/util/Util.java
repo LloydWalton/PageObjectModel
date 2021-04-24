@@ -21,7 +21,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-import com.qa.crmtest.base.TestBase;
+import com.qa.crm.testbase.TestBase;
 
 
 
