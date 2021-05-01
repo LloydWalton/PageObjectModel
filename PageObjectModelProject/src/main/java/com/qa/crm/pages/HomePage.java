@@ -59,7 +59,8 @@ public class HomePage extends TestBase {
 		//System.out.println(driver.getPageSource());
 		Actions action=new Actions(driver);
 		//action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Contacts')]"))).build().perform();
-		action.moveToElement(contactsLink).build().perform();
+		//action.moveToElement(contactsLink).build().perform();
+		action.moveToElement(contactsLink).perform();
 		newContactsLink.click();
 		
 		
