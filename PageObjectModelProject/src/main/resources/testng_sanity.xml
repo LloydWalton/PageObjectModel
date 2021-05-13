@@ -4,6 +4,9 @@
 	<listeners>
 		<listener
 			class-name="com.qa.crm.extentreport.ExtentReportListener" />
+			<listener
+			class-name="com.qa.crm.retrylogic.RetryTransformer" />
+			
 	</listeners>
 	<test name="Free CRM Application Test Cases">
 		<classes>

@@ -5,3 +5,4 @@
 **/test-output/**
 /application.log
 /test-output/
+/target/
