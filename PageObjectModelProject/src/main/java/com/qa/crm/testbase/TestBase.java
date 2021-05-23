@@ -25,8 +25,7 @@ public class TestBase {
 
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\Lloyd Walton\\git\\PageObjectModel\\PageObjectModelProject"
-					+ "\\src\\main\\java\\com\\qa\\crm\\config\\configuration.properties");
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\qa\\crm\\config\\configuration.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
